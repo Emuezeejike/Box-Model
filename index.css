@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+header {
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    padding: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "poppins", sans-serif, monospace;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: auto;
+    gap: 1.5rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 50vh;
+    h2 {
+        font-size: 1.5rem;
+        color: rgb(107, 35, 9);
+        text-align: center;
+        font-family: "poppins", sans-serif, monospace;
+    }
+    h2:hover {
+        color: orangered;
+    }
+    p {
+        font-size: 1rem;
+        color: rgb(165, 165, 165);
+        text-align: justify;
+        font-size: 0.5rem;
+        font-family: "poppins", sans-serif, monospace;
+    }
+    p:hover {
+        color: white;
+        font-size: 0.8rem;
+    }
+}
+footer {
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+    width: auto;
+}
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.call {
+    background-color: black;
+    color: orangered;
+    text-align: left;
+    font-size: large;
+    font-weight: 900;
+    font-family: "poppins", sans-serif, monospace;
+}
+.contact {
+    color: rgb(165, 165, 165);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: "poppins", sans-serif, monospace;
+    font-size: 0.8rem;
+    li {
+        list-style: none;
+        color: rgb(165, 165, 165);
+        text-align: left;
+        font-size: 0.7rem;
+        font-family: "poppins", sans-serif, monospace;
+    }
+
+}
+.foot {
+    margin-top: 1rem;
+    font-style: italic;
+    font-family: "poppins", sans-serif, monospace;
+}
